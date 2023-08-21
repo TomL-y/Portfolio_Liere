@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    position : fixed;
+    width: 100%;
+    height: 50px;
+    color: black;
+    padding: 15px 50px;
+    border-bottom: 1px solid black;
+}
+
+nav a {
+    cursor: pointer;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(255, 38, 0);
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+nav a:not(:hover) {
+    transition: all 0.5s ease-in-out;
+}
+
+.header {
+    background-color: rgb(241, 194, 149);
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-1 h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.photo {
+    width: 300px;
+    height: 350px;
+    border:black 1px solid;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Moi {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Moi h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+} 
+
+.Moi a {
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.parcours {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.parcours a {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.competence {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.competence h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.competence h2 {
+    margin-bottom: 30px;
+}
+
+.projet {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.projet a {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color : blue;
+    text-align: center;
+}
+
+.projet p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+}
